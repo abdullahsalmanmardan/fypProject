@@ -6,37 +6,37 @@ const HomePage = () => {
     <>
       <div
         id="carouselExampleControls"
-        class="carousel slide"
+        className="carousel slide"
         data-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src={img1} alt="First slide" />
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img className="d-block w-100" src={img1} alt="First slide" />
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src={img1} alt="Second slide" />
+          <div className="carousel-item">
+            <img className="d-block w-100" src={img1} alt="Second slide" />
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src={img2} alt="Third slide" />
+          <div className="carousel-item">
+            <img className="d-block w-100" src={img2} alt="Third slide" />
           </div>
         </div>
         <a
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           href="#carouselExampleControls"
           role="button"
           data-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="sr-only">Previous</span>
         </a>
         <a
-          class="carousel-control-next"
+          className="carousel-control-next"
           href="#carouselExampleControls"
           role="button"
           data-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="sr-only">Next</span>
         </a>
       </div>
 
@@ -45,57 +45,57 @@ const HomePage = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <div class="jumbotron">
-              <h1 class="display-4">Hello, world!</h1>
-              <p class="lead">
+            <div className="jumbotron">
+              <h1 className="display-4">Hello, world!</h1>
+              <p className="lead">
                 This is a simple hero unit, a simple jumbotron-style component
                 for calling extra attention to featured content or information.
               </p>
-              <hr class="my-4" />
+              <hr className="my-4" />
               <p>
                 It uses utility classes for typography and spacing to space
                 content out within the larger container.
               </p>
-              <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">
+              <p className="lead">
+                <a className="btn btn-primary btn-lg" href="#" role="button">
                   Learn more
                 </a>
               </p>
             </div>
           </div>
           <div className="col-md-4">
-            <div class="jumbotron">
-              <h1 class="display-4">Hello, world!</h1>
-              <p class="lead">
+            <div className="jumbotron">
+              <h1 className="display-4">Hello, world!</h1>
+              <p className="lead">
                 This is a simple hero unit, a simple jumbotron-style component
                 for calling extra attention to featured content or information.
               </p>
-              <hr class="my-4" />
+              <hr className="my-4" />
               <p>
                 It uses utility classes for typography and spacing to space
                 content out within the larger container.
               </p>
-              <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">
+              <p className="lead">
+                <a className="btn btn-primary btn-lg" href="#" role="button">
                   Learn more
                 </a>
               </p>
             </div>
           </div>
           <div className="col-md-4">
-            <div class="jumbotron">
-              <h1 class="display-4">Hello, world!</h1>
-              <p class="lead">
+            <div className="jumbotron">
+              <h1 className="display-4">Hello, world!</h1>
+              <p className="lead">
                 This is a simple hero unit, a simple jumbotron-style component
                 for calling extra attention to featured content or information.
               </p>
-              <hr class="my-4" />
+              <hr className="my-4" />
               <p>
                 It uses utility classes for typography and spacing to space
                 content out within the larger container.
               </p>
-              <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">
+              <p className="lead">
+                <a className="btn btn-primary btn-lg" href="#" role="button">
                   Learn more
                 </a>
               </p>

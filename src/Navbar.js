@@ -1,12 +1,13 @@
 import React from "react";
-
+import { BrowserRouter as Router, NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="/">
-          Navbar
-        </a>
+        <NavLink to="/" className="navbar-brand">
+          fyp
+        </NavLink>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -22,18 +23,18 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="/">
-                Home <span className="sr-only">(current)</span>
-              </a>
+              <NavLink className="nav-NavLink" to="/">
+                Home
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
-                Link
-              </a>
+              <NavLink className="nav-NavLink" to="/">
+                Home
+              </NavLink>
             </li>
             <li className="nav-item dropdown">
               <a
-                className="nav-link dropdown-toggle"
+                className="nav-NavLink dropdown-toggle"
                 href="/"
                 id="navbarDropdown"
                 role="button"
@@ -44,38 +45,39 @@ const Navbar = () => {
                 Dropdown
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="/">
-                  Action
-                </a>
-                <a className="dropdown-item" href="/">
-                  Another action
-                </a>
+                <NavLink className="nav-NavLink" to="/">
+                  Home
+                </NavLink>
+
+                <NavLink className="nav-NavLink" to="/">
+                  Home
+                </NavLink>
+
                 <div className="dropdown-divider"></div>
-                <a className="dropdown-item" href="/">
-                  Something else here
-                </a>
+                <NavLink className="nav-NavLink" to="/">
+                  Home
+                </NavLink>
               </div>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled" href="/">
-                Disabled
-              </a>
+              <NavLink className="nav-NavLink" to="/">
+                Home
+              </NavLink>
             </li>
           </ul>
-          <form className="form-inline my-2 my-lg-0">
-            <input
-              className="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button
-              className="btn btn-outline-success my-2 my-sm-0"
-              type="submit"
-            >
-              Search
-            </button>
-          </form>
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item mr-auto">
+              <NavLink className="nav-NavLink mr-auto" to="/Login">
+                Login
+              </NavLink>
+            </li>
+
+            <li className="nav-item mr-auto">
+              <NavLink className="nav-NavLink mr-auto" to="/Registation">
+                Signup
+              </NavLink>
+            </li>
+          </ul>
         </div>
       </nav>
     </>
