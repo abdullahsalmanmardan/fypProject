@@ -3,7 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="container-fluid">
+      <br></br>
+      <br></br>
+      <div className="containor">
         <footer className="bg-dark text-center text-lg-start text-white">
           <div className="container p-4">
             <div className="row mt-4">

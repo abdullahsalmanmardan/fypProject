@@ -26,7 +26,10 @@ const HomePage = () => {
           role="button"
           data-slide="prev"
         >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
           <span className="sr-only">Previous</span>
         </a>
         <a
@@ -35,7 +38,10 @@ const HomePage = () => {
           role="button"
           data-slide="next"
         >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
           <span className="sr-only">Next</span>
         </a>
       </div>
@@ -46,16 +52,10 @@ const HomePage = () => {
         <div className="row">
           <div className="col-md-4">
             <div className="jumbotron">
-              <h1 className="display-4">Hello, world!</h1>
-              <p className="lead">
-                This is a simple hero unit, a simple jumbotron-style component
-                for calling extra attention to featured content or information.
-              </p>
+              <h1 className="display-4">Welcome</h1>
+              <p className="lead">Welcome to our managment system</p>
               <hr className="my-4" />
-              <p>
-                It uses utility classes for typography and spacing to space
-                content out within the larger container.
-              </p>
+              <p>Browse product to get info</p>
               <p className="lead">
                 <a className="btn btn-primary btn-lg" href="#" role="button">
                   Learn more
@@ -65,16 +65,10 @@ const HomePage = () => {
           </div>
           <div className="col-md-4">
             <div className="jumbotron">
-              <h1 className="display-4">Hello, world!</h1>
-              <p className="lead">
-                This is a simple hero unit, a simple jumbotron-style component
-                for calling extra attention to featured content or information.
-              </p>
+              <h1 className="display-4">Welcome</h1>
+              <p className="lead">Welcome to our managment system</p>
               <hr className="my-4" />
-              <p>
-                It uses utility classes for typography and spacing to space
-                content out within the larger container.
-              </p>
+              <p>Welcome to our managment system</p>
               <p className="lead">
                 <a className="btn btn-primary btn-lg" href="#" role="button">
                   Learn more
@@ -84,16 +78,10 @@ const HomePage = () => {
           </div>
           <div className="col-md-4">
             <div className="jumbotron">
-              <h1 className="display-4">Hello, world!</h1>
-              <p className="lead">
-                This is a simple hero unit, a simple jumbotron-style component
-                for calling extra attention to featured content or information.
-              </p>
+              <h1 className="display-4">Welcome</h1>
+              <p className="lead">Welcome to our managment system</p>
               <hr className="my-4" />
-              <p>
-                It uses utility classes for typography and spacing to space
-                content out within the larger container.
-              </p>
+              <p>Welcome to our managment system</p>
               <p className="lead">
                 <a className="btn btn-primary btn-lg" href="#" role="button">
                   Learn more

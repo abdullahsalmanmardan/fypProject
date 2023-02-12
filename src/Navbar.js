@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
@@ -29,7 +29,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink className="nav-NavLink" to="/">
-                Home
+                Contact-Us
               </NavLink>
             </li>
             <li className="nav-item dropdown">
@@ -42,43 +42,43 @@ const Navbar = () => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Dropdown
+                Products
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <NavLink className="nav-NavLink" to="/">
-                  Home
+                  p1
                 </NavLink>
 
                 <NavLink className="nav-NavLink" to="/">
-                  Home
+                  product2
                 </NavLink>
 
                 <div className="dropdown-divider"></div>
                 <NavLink className="nav-NavLink" to="/">
-                  Home
+                  Product3
                 </NavLink>
               </div>
             </li>
             <li className="nav-item">
               <NavLink className="nav-NavLink" to="/">
-                Home
-              </NavLink>
-            </li>
-          </ul>
-          <ul className="navbar-nav mr-auto">
-            <li className="nav-item mr-auto">
-              <NavLink className="nav-NavLink mr-auto" to="/Login">
-                Login
-              </NavLink>
-            </li>
-
-            <li className="nav-item mr-auto">
-              <NavLink className="nav-NavLink mr-auto" to="/Registation">
-                Signup
+                About-Us
               </NavLink>
             </li>
           </ul>
         </div>
+        <ul className="navbar-nav mr-auto">
+          <li className="nav-item mr-auto">
+            <NavLink className="nav-NavLink mr-auto" to="/Login">
+              Login
+            </NavLink>
+          </li>
+
+          <li className="nav-item mr-auto">
+            <NavLink className="nav-NavLink mr-auto" to="/Registation">
+              Signup
+            </NavLink>
+          </li>
+        </ul>
       </nav>
     </>
   );
